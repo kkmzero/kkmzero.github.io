@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url("https://raw.githack.com/kkmzero/css-langdot/main/css/lang.css");
+
+body {
+	color: #ffffff;
+	background-color: #000000;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 13px;
+}
+
+hr {
+	border:none;
+	width:100%;
+	text-align:left;
+	margin-left:0;
+	border-top:1px dashed #ffffff;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+	font-size: 16px;
+}
+
+ul {
+	list-style-type: square;
+}
+
+.container {
+	display: grid; 
+	grid-template-columns: 0.7fr 2.7fr 1.4fr 0.7fr; 
+	grid-template-rows: 0.1fr 0.4fr 1.9fr 0.1fr; 
+	gap: 15px 15px; 
+	grid-template-areas: 
+	". . . ."
+	". header1 header2 ."
+	". content sidebox ."
+	". . . ."; 
+}
+
+.header1 {
+	grid-area: header1;
+}
+
+.header2 {
+	grid-area: header2;
+}
+
+.content {
+	grid-area: content;
+}
+
+.sidebox {
+	grid-area: sidebox;
+}
