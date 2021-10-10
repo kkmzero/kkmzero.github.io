@@ -1,0 +1,2 @@
+64735dbb0a9db4333c03f4ed87c1747f5cd0faf37e4c22c265a5f90b49abd1ee  isampp-1.5.tar.gz
+31fc01aedb72b76b07138fa9058c83f3ca98aa4ba812ce0a136ef51e1283bf89  isampp-1.5.zip
