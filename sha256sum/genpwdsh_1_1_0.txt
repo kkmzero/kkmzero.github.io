@@ -1,0 +1,2 @@
+ea30ab4e1d81c4836c8c525124034cf523fbac9642fc1e695b9a94a44dc763d2  genpwdsh-1.1.0.tar.gz
+bc94f6a00ffc6c567d58cf86b5b291edcaa28c3fc6136f8ca967f9018b6e60ce  genpwdsh-1.1.0.zip
