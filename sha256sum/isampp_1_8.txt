@@ -1,0 +1,2 @@
+86f29dcfb886e114b4cd0f8ca940c8749d5adcf15251ca2e208de3cf71d57eed  isampp-1.8.tar.gz
+b201b5ae5c9980dff6c6b69b145a9988ae5438bdae0fe3e7c9009e1d3151a847  isampp-1.8.zip
