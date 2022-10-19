@@ -1,0 +1,2 @@
+72f7a40b67e1dc94a4dda12f66bb0cc34f4da097c2715efa8cc7ded86fb27656  css-langdot-20221019.tar.gz
+79d59f1a229e1aaabece745cc385e9a573cd1e83933984fd6a5b65da605feea4  css-langdot-20221019.zip
