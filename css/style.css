@@ -1,6 +1,6 @@
 /*
  * kkmzero.github.io
- * 2021 - 2022, Ivan Kmeťo
+ * 2021 - 2023, Ivan Kmeťo
  *
  * Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
  * https://creativecommons.org/licenses/by-sa/4.0/
@@ -23,7 +23,7 @@ hr {
     width: 100%;
     text-align: left;
     margin-left: 0;
-    border-top: 1px dashed #ffffff;
+    border-top: 1px solid #333333;
 }
 
 a {
@@ -56,22 +56,24 @@ ul {
 .container {
     display: grid; 
     grid-template-columns: 0.7fr 2.7fr 1.4fr 0.7fr; 
-    grid-template-rows: 22px 200px 1.9fr 0.1fr; 
+    grid-template-rows: 0px 200px 1.9fr 0.1fr; 
     gap: 15px 15px; 
     grid-template-areas: 
     ". . . ."
-    ". header1 header2 ."
+    ". header1 header1 ."
     ". content sidebox ."
     ". . . ."; 
 }
 
 .header1 {
     grid-area: header1;
+    background-image: url("../img/header.png");
+    background-repeat: repeat-x;
 }
 
-.header2 {
+/*.header2 {
     grid-area: header2;
-}
+}*/
 
 .content {
     grid-area: content;
@@ -79,4 +81,6 @@ ul {
 
 .sidebox {
     grid-area: sidebox;
+    position: sticky; top: 0;
+    height: 20%;
 }
