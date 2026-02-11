@@ -1,6 +1,6 @@
 /*
  * kkmzero.github.io
- * 2021 - 2024, Ivan Kmeťo
+ * 2021 - 2026, Ivan Kmeťo
  *
  * Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
  * https://creativecommons.org/licenses/by-sa/4.0/
@@ -8,7 +8,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-@import url("https://raw.githack.com/kkmzero/css-langdot/main/css/lang.css");
+@import url("https://cb.githack.com/kkmzero/css-langdot/raw/branch/main/css/lang.css");
 
 
 body {
@@ -54,15 +54,15 @@ ul {
 }
 
 .container {
-    display: grid; 
-    grid-template-columns: 0.7fr 2.7fr 1.4fr 0.7fr; 
-    grid-template-rows: 0px 200px 1.9fr 0.1fr; 
-    gap: 15px 15px; 
-    grid-template-areas: 
+    display: grid;
+    grid-template-columns: 0.7fr 2.7fr 1.4fr 0.7fr;
+    grid-template-rows: 0px 200px 1.9fr 0.1fr;
+    gap: 15px 15px;
+    grid-template-areas:
     ". . . ."
     ". header1 header1 ."
     ". content sidebox ."
-    ". . . ."; 
+    ". . . .";
 }
 
 .header1 {
